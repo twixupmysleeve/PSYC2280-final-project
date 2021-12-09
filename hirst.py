@@ -4,7 +4,10 @@ import cv2
 import numpy as np
 import sys
 
-name = sys.argv[1]
+try:
+	name = sys.argv[1]
+except:
+	name = "color.png"
 img = cv2.imread(name)
 
 lab= cv2.cvtColor(img, cv2.COLOR_BGR2LAB)
