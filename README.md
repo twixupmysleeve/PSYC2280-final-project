@@ -10,9 +10,11 @@ Damien Hirst is a spot artist who paints extremely accurate and precisely circul
   `cd PSYC2280-final-project`
 3. Download the dependencies:<br>
   `pip3 install -r requirements.txt`
-4. Run the code:
-  a. On the sample image: <br> `python3 hirst.py`
-  b. On your own image: <br> `python3 hirst.py absolute/path/to/file.png`
+4. Run the code: <br>
+  a. On the provided sample image (color.png): <br> 
+    `python3 hirst.py`<br>
+  b. On your own image: <br> 
+    `python3 hirst.py absolute/path/to/file.png`<br>
     _You can simply drag and drop the image onto the terminal to access the path_
     
 If you have any questions trying it out, please don't hesitate to reach me at pratham@gatech.edu
