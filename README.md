@@ -5,17 +5,18 @@ Damien Hirst is a spot artist who paints extremely accurate and precisely circul
 ## Instructions
 **_NOTE: IN ORDER TO RUN THIS CODE, YOU MUST HAVE PYTHON 3 OR ABOVE INSTALLED ALONG WITH THE MOST UP-TO-DATE VERSION OF PIP_**
 1. Run the following code in terminal/command prompt to clone the repository:<br>
-  `git clone https://github.com/twixupmysleeve/PSYC2280-final-project`
+    * `git clone https://github.com/twixupmysleeve/PSYC2280-final-project`
 2. Change directory into the repository:<br>
-  `cd PSYC2280-final-project`
+    * `cd PSYC2280-final-project`
 3. Download the dependencies:<br>
-  `pip3 install -r requirements.txt`
+    * `pip3 install -r requirements.txt`
 4. Run the code: <br>
-  a. On the provided sample image (color.png): <br> 
-    `python3 hirst.py`<br>
-  b. On your own image: <br> 
-    `python3 hirst.py absolute/path/to/file.png`<br>
-    _You can simply drag and drop the image onto the terminal to access the path_
+    - On the provided sample image (color.png): <br> 
+      * `python3 hirst.py`<br>
+    - On your own image: <br> 
+      * `python3 hirst.py absolute/path/to/file.png`<br>
+
+_You can simply drag and drop the image onto the terminal to access the path_
     
 If you have any questions trying it out, please don't hesitate to reach me at pratham@gatech.edu
 
