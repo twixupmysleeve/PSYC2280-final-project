@@ -25,8 +25,8 @@ screen = turtle.Screen()
 screen.setup(width = 1.0, height = 1.0)
 
 # Defining base constants
-DOT_SIZE = 10
-GAP = DOT_SIZE + 2
+DOT_SIZE = 20
+GAP = DOT_SIZE * 2
 
 # Modifying image width and height to match screen dimensions
 if img.shape[1] > img.shape[0]:
@@ -68,7 +68,7 @@ for dot_count in range(1, number_of_dots + 1):
 	hor_pos = (dot_count-1) % WIDTH
 	ver_pos = (dot_count-1) // WIDTH
 	color = (r[ver_pos][hor_pos], g[ver_pos][hor_pos], b[ver_pos][hor_pos])
-	
+
 	T.dot(DOT_SIZE, color)
 	T.forward(GAP)
 
