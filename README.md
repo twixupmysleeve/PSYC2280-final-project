@@ -1,4 +1,4 @@
-# PSYC2280 Final Project: Convert Images to Damien Hirst Spot Painting
+# PSYC2280 Final Project: Convert Images to Spots
 
 Damien Hirst is a spot artist who paints extremely accurate and precisely circular spots by hand, positioned in a grid. I was inspired by this to create my own version of Hirst Spots that take in an image that is provided by the user, and return a "Hirst-ed" version of that image. You can watch real-time as the program converts the image into a series of spots, producing an aesthetic image of Damien Hirst's style. While Hirst enjoys using colours to create a happy painting, I wrote my program with a different interpretation in mind. My program can be thought of as a way of adding a layer of abstraction to a user-input image, allowing the user to have multiple artistic variations of any drawing or photograph or other relevant piece of art.
 
